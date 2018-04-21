@@ -40,7 +40,7 @@
         <!--================Search Area =================-->
         <section class="search_area">
             <div class="search_inner">
-                <input type="text" placeholder="Enter Your Search...">
+                <input type="text" placeholder="Pesquise aqui...">
                 <i class="ti-close"></i>
             </div>
         </section>
@@ -60,15 +60,15 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
-                        <li class="nav-item"><a  href="static.html">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/selecao') }}">Seleção</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/blog') }}">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/sobre') }}">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url('/contato') }}">Contato</a></li>
                     </ul>
                     <ul class="navbar-nav justify-content-end">
-                        <li><a href="#"><i class="icon_search"></i></a></li>
-                        <li><a href="#"><i class="icon_bag_alt"></i></a></li>
+                        <li><a href="" title="Pesquisar"><i class="icon_search"></i></a></li>
+                        <li><a href="#" title="Endereço Google Maps"><i class="icon_pin_alt"></i></a></li>
                     </ul>
                 </div>
             </nav>
