@@ -419,7 +419,7 @@ i:before {
   background: url(../img/banner-1.jpg) no-repeat scroll center center;
   background-size: cover;
   position: relative;
-  min-height: 400px;
+  min-height: 800px;
 }
 
 .banner_area:before {
@@ -443,6 +443,7 @@ i:before {
   font-size: 48px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+  padding-top:15%;
   padding-bottom: 10px;
 }
 

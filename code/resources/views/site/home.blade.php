@@ -4,98 +4,15 @@
 
 
 @section('content')
-   <!--================Slider Area =================-->
-   <section class="main_slider_area">
-    <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
-        <ul>
-            <li data-index="rs-2946" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-            <!-- MAIN IMAGE -->
-                <img src="{{ url('img/slider-1.jpeg')}}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                <!-- LAYER NR. 1 -->
-                <div class="slider_text_box">
-                    
-                    <div class="tp-caption tp-resizeme secand_text"
-                        data-x="['center','center','center','center','center','center']"
-                        data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-voffset="['0','0','0','0','0']"
-                        data-fontsize="['48','48','48','28','28','22']"
-                        data-lineheight="['60','60','60','36','36','30']"
-                        data-width="100%"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-type="text"
-                        data-responsive_offset="on"
-                        data-transform_idle="o:1;"
-                        data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                        data-textAlign="['center','center','center','center','center','center']"
-
-                        style="z-index: 8;font-family:'Poppins', sans-serif;font-weight:700;color:#fff;">
-                        Sindicato dos Mediadores e Conciliadores<br/> Judiciais e Extrajudiciais do Estado do Ceará 
-                    </div>
-
-                    <div class="tp-caption tp-resizeme slider_button"
-                        data-x="['center','center','center','center','center','center']"
-                        data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-voffset="['130','130','130','100','100','100']"
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-type="text"
-                        data-responsive_offset="on"
-                        data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                        data-textAlign="['center','center','center','center','center','center']">
-                        <a class="bg_btn" href="#">About Us</a>
-                        <a class="tp_btn" href="#">Get a quote</a>
-                    </div>
-                </div>
-            </li>
-            <li data-index="rs-2947" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-            <!-- MAIN IMAGE -->
-                <img src="{{ url('img/slider-1.jpeg')}}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                <!-- LAYER NR. 1 -->
-                <div class="slider_text_box">
-                    <div class="tp-caption tp-resizeme secand_text"
-                        data-x="['center','center','center','center','center','center']"
-                        data-hoffset="['0','80','80','0']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-voffset="['0','0','0','0','0']"
-                        data-fontsize="['48','48','48','28','28','22']"
-                        data-lineheight="['60','60','60','36','36','30']"
-                        data-width="100%"
-                        data-height="none"
-                        data-whitespace="normal"
-                        data-type="text"
-                        data-responsive_offset="on"
-                        data-transform_idle="o:1;"
-                        data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                        data-textAlign="['center','center','center','center','center','center']"
-
-                        style="z-index: 8;font-family:'Poppins', sans-serif;font-weight:700;color:#fff;">Website Design, Brand Strategy, <br />Digital Marketing with Stunning Results
-                    </div>
-
-                    <div class="tp-caption tp-resizeme slider_button"
-                        data-x="['center','center','center','center','center','center']"
-                        data-hoffset="['0','0','0','0']"
-                        data-y="['middle','middle','middle','middle']"
-                        data-voffset="['130','130','130','100','100','100']"
-                        data-width="none"
-                        data-height="none"
-                        data-whitespace="nowrap"
-                        data-type="text"
-                        data-responsive_offset="on"
-                        data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                        data-textAlign="['center','center','center','center','center','center']">
-                        <a class="bg_btn" href="#">About Us</a>
-                        <a class="tp_btn" href="#">Get a quote</a>
-                    </div>
-                </div>
-            </li>
-        </ul>
+   <!--================Banner Area =================-->
+<section class="banner_area">
+    <div class="container">
+        <div class="banner_text_inner">
+            <h4>Sindicato dos Mediadores e Conciliadores Judiciais e Extrajudiciais do Estado do Ceará </h4>
+            <h5>SIMECCE</h5>
+        </div>
     </div>
 </section>
-<!--================End Slider Area =================-->
 
 <!--================Creative Feature Area =================-->
 <section class="creative_feature_area">
