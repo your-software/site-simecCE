@@ -4,7 +4,7 @@
 
 
 @section('content')
-   <!--================Banner Area =================-->
+ <!--================Banner Area =================-->
 <section class="banner_area">
     <div class="container">
         <div class="banner_text_inner">
