@@ -67,8 +67,8 @@
                         <li class="nav-item"><a class="nav-link" href="{{ url('/contato') }}">Contato</a></li>
                     </ul>
                     <ul class="navbar-nav justify-content-end">
-                        <li><a href="" title="Pesquisar"><i class="icon_search"></i></a></li>
-                        <li><a href="#" title="Endereço Google Maps"><i class="icon_pin_alt"></i></a></li>
+                        <li><a href="" title="Pesquisar" ><i class="icon_search"></i></a></li>
+                        <li><a href="#" title="Endereço Google Maps" data-toggle="modal" data-target="#modalEndereco"><i class="icon_pin_alt"></i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -171,7 +171,28 @@
             </div>
         </footer>
         <!--================End Footer Area =================-->
-
+            
+            <!-- Modal Endereço -->
+            <div class="modal fade bd-example-modal-lg" id="modalEndereco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Estamos aqui</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3049403374444!2d-38.564680285698515!3d-3.7435990972763906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749646aa10787%3A0xeb7aa73b549f7103!2sR.+Amadeu+Furtado%2C+914+-+Amadeu+Furtado%2C+Fortaleza+-+CE%2C+60455-485!5e0!3m2!1spt-PT!2sbr!4v1524365880291" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal Endereço -->
+                                            
 
 
 
